@@ -1,0 +1,19 @@
+{
+  "name": "new-pokedex",
+  "version": "1.0.0",
+  "description": "Pokedex vanilla js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+    
+  },
+  "author": "Alvarez Tomás",
+  "license": "ISC",
+  "dependencies": {
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.3.2"
+  }
+}

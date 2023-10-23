@@ -1,0 +1,209 @@
+.title {
+    font-size: 25px;
+
+}
+
+.selected-pokemon {
+
+    background-color: darkslategrey;
+    height: 100%;
+    width: 1100px;
+    margin: auto;
+    border: 2px white solid;
+    display: grid;
+}
+
+.selected-pokemon-image {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    border-spacing: 10px;
+    margin: auto;
+}
+.stats{
+    display: flex;
+    margin: auto;
+}
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #172654;
+    text-align: center;
+    margin: auto;
+    font-family: system-ui;
+    color: white;
+
+}
+
+.loading {
+    font-size: 25px;
+}
+
+.pokemon-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". . . . ."
+        ". . . . ."
+        ". . . . ."
+        ". . . . .";
+}
+
+.container {
+    height: 100%;
+}
+
+.pokemon {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    border-spacing: 10px;
+}
+
+.pagination {
+    display: inline-flex;
+}
+
+.pagination-button {
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5%;
+    color: white;
+    height: 100%;
+
+}
+.pagination-button:hover{
+    background-color: white;
+    color: black;
+}
+
+.current-page {
+    background: transparent;
+    border-color: white;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 5%;
+    color: white;
+
+
+}
+
+.total-pages {
+    font-size: 25px;
+    margin: auto;
+}
+.types{    
+    display: inline-flex;
+    margin: auto;
+}
+
+.close-button{
+    width: 30px;
+    position: relative;
+    bottom: -10px;
+    right: -1000px;
+    cursor: pointer;
+    border-color: transparent;
+    border-radius: 10%;
+    background-color: rgb(192, 0, 0);
+    font-size: 15px;
+    color: white;
+  
+  }
+
+.type {
+    margin: 10px;
+    border-radius: 10%;
+    color: white;
+    padding: 5px;
+
+}
+
+.fire {
+    background-color: rgb(231, 33, 33);
+}
+
+.grass {
+    background-color: green;
+}
+
+.normal {
+    background-color: grey;
+
+}
+
+.steel {
+    background-color: darkgrey;
+}
+
+.bug {
+    background-color: darkgreen;
+}
+
+.water {
+    background-color: rgb(31, 192, 255);
+}
+
+.electric {
+    background-color: rgb(224, 224, 12);
+}
+
+.ground {
+    background-color: rgb(151, 68, 68);
+}
+
+.fighting {
+    background-color: red;
+}
+
+.poison {
+    background-color: purple;
+}
+
+.flying {
+    background-color: lightgrey;
+}
+
+.psychic {
+    background-color: palevioletred
+}
+
+.ice {
+    background-color: skyblue;
+}
+
+.ghost {
+    background-color: darkorchid;
+}
+
+.rock {
+    background-color: rosybrown;
+}
+
+.dark {
+    background-color: rgb(75, 67, 67);
+}
+
+.dragon {
+    background-color: chocolate;
+}
+
+.fairy {
+    background-color: rgb(247, 54, 173);
+}
